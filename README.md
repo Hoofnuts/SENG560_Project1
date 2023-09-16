@@ -7,4 +7,4 @@ The AbstractUtils Package contains a set of classes, one for each type of data a
 The StringUtils library had basic testing performed on all of the functions using the main() application. There are simple print statements to the console to out line the results of the functions.
 
 # Reusability
-This library can easily be used or extended in Java. The common format of using and returning strings for the StringUtils package would be useful especially in UI applications where things are displayed as strings.
+This library can easily be used or extended in Java. The common format of using and returning strings for the StringUtils package would be especially useful in UI applications where things are displayed as strings.
