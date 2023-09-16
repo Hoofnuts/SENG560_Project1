@@ -8,7 +8,7 @@ public class FloatMath extends MathAbstract<Float> {
 	}
 
 	@Override
-	public Float subtract(Float a, Float b) {
+	public Float subtract(Float a, Float b) {//(a-b)
 		return a-b;
 	}
 
@@ -18,7 +18,7 @@ public class FloatMath extends MathAbstract<Float> {
 	}
 
 	@Override
-	public Float divide(Float a, Float b) {
+	public Float divide(Float a, Float b) {//(a/b)
 		return a/b;
 	}
 

@@ -8,7 +8,7 @@ public class ShortMath extends MathAbstract<Short> {
 	}
 
 	@Override
-	public Short subtract(Short a, Short b) {
+	public Short subtract(Short a, Short b) {//(a-b)
 		return (short) (a-b);
 	}
 
@@ -18,7 +18,7 @@ public class ShortMath extends MathAbstract<Short> {
 	}
 
 	@Override
-	public Short divide(Short a, Short b) {
+	public Short divide(Short a, Short b) {//(a/b)
 		return (short) (a/b);
 	}
 

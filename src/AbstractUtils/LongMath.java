@@ -8,7 +8,7 @@ public class LongMath extends MathAbstract<Long> {
 	}
 
 	@Override
-	public Long subtract(Long a, Long b) {
+	public Long subtract(Long a, Long b) {//(a-b)
 		return a-b;
 	}
 
@@ -18,7 +18,7 @@ public class LongMath extends MathAbstract<Long> {
 	}
 
 	@Override
-	public Long divide(Long a, Long b) {
+	public Long divide(Long a, Long b) {//(a/b)
 		return a/b;
 	}
 

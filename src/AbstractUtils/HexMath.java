@@ -10,7 +10,7 @@ public class HexMath extends MathAbstract<String> {
     }
 
     @Override
-    public String subtract(String hexNumA, String hexNumB) {
+    public String subtract(String hexNumA, String hexNumB) {//(hexNumA-hexNumB)
         return MathFunctions.addHex(hexNumA,hexNumB);
     }
 
@@ -20,7 +20,7 @@ public class HexMath extends MathAbstract<String> {
     }
 
     @Override
-    public String divide(String hexNumA, String hexNumB) {
+    public String divide(String hexNumA, String hexNumB) {//(hexNumA/hexNumB)
         return MathFunctions.addHex(hexNumA,hexNumB);
     }
 }

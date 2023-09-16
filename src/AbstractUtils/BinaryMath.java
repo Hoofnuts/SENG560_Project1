@@ -10,7 +10,7 @@ public class BinaryMath extends MathAbstract<String>{
     }
 
     @Override
-    public String subtract(String binNumA, String binNumB) {
+    public String subtract(String binNumA, String binNumB) {//(binNumA-binNumB)
         return MathFunctions.subBinary(binNumA,binNumB);
     }
 
@@ -20,7 +20,7 @@ public class BinaryMath extends MathAbstract<String>{
     }
 
     @Override
-    public String divide(String binNumA, String binNumB) {
+    public String divide(String binNumA, String binNumB) {//(binNumA/binNumB)
         return MathFunctions.divBinary(binNumA,binNumB);
     }
 }

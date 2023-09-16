@@ -10,7 +10,7 @@ public class DoubleMath extends MathAbstract<Double> {
 	@Override
 	public Double subtract(Double a, Double b) {
 		return a-b;
-	}
+	}//(a-b)
 
 	@Override
 	public Double multiply(Double a, Double b) {
@@ -20,6 +20,6 @@ public class DoubleMath extends MathAbstract<Double> {
 	@Override
 	public Double divide(Double a, Double b) {
 		return a/b;
-	}
+	}//(a/b)
 
 }

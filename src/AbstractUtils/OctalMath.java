@@ -11,7 +11,7 @@ public class OctalMath extends MathAbstract<String>{
     }
 
     @Override
-    public String subtract(String octNumA, String octNumB) {
+    public String subtract(String octNumA, String octNumB) {//(octNumA-octNumB)
         return MathFunctions.subOctal(octNumA,octNumB);
     }
 
@@ -21,7 +21,7 @@ public class OctalMath extends MathAbstract<String>{
     }
 
     @Override
-    public String divide(String octNumA, String octNumB) {
+    public String divide(String octNumA, String octNumB) {//(octNumA/octNumB)
         return MathFunctions.divOctal(octNumA,octNumB);
     }
 }

@@ -36,35 +36,35 @@ public class MathFunctions {
         return Double.toString(Double.parseDouble(a) + Double.parseDouble(b));
     }
 
-    public static String subInts(String a, String b) {
+    public static String subInts(String a, String b) {//(a-b)
         return Integer.toString(parseInt(a) - parseInt(b));
     }
 
-    public static String subShorts(String a, String b) {
+    public static String subShorts(String a, String b) {//(a-b)
         return Short.toString((short) (Short.parseShort(a) - Short.parseShort(b)));
     }
 
-    public static String subLongs(String a, String b) {
+    public static String subLongs(String a, String b) {//(a-b)
         return Long.toString(Long.parseLong(a) - Long.parseLong(b));
     }
 
-    public static String subBinary(String a, String b) {
+    public static String subBinary(String a, String b) {//(a-b)
         return Integer.toBinaryString(Integer.parseInt(a,2) - Integer.parseInt(b,2));
     }
 
-    public static String subOctal(String a, String b) {
+    public static String subOctal(String a, String b) {//(a-b)
         return Integer.toOctalString(Integer.parseInt(a,8) - Integer.parseInt(b,8));
     }
 
-    public static String subHex(String a, String b) {
+    public static String subHex(String a, String b) {//(a-b)
         return Integer.toHexString(Integer.parseInt(a,16) - Integer.parseInt(b,16)).toUpperCase();
     }
 
-    public static String subFloats(String a, String b) {
+    public static String subFloats(String a, String b) {//(a-b)
         return Float.toString(Float.parseFloat(a) - Float.parseFloat(b));
     }
 
-    public static String subDoubles(String a, String b) {
+    public static String subDoubles(String a, String b) {//(a-b)
         return Double.toString(Double.parseDouble(a) - Double.parseDouble(b));
     }
 
@@ -100,35 +100,35 @@ public class MathFunctions {
         return Double.toString(Double.parseDouble(a) * Double.parseDouble(b));
     }
 
-    public static String divInts(String a, String b) {
+    public static String divInts(String a, String b) {//(a/b)
         return Integer.toString(parseInt(a) / parseInt(b));
     }
 
-    public static String divShorts(String a, String b) {
+    public static String divShorts(String a, String b) {//(a/b)
         return Short.toString((short) (Short.parseShort(a) / Short.parseShort(b)));
     }
 
-    public static String divLongs(String a, String b) {
+    public static String divLongs(String a, String b) {//(a/b)
         return Long.toString(Long.parseLong(a) / Long.parseLong(b));
     }
 
-    public static String divBinary(String a, String b) {
+    public static String divBinary(String a, String b) {//(a/b)
         return Integer.toBinaryString(Integer.parseInt(a,2) / Integer.parseInt(b,2));
     }
 
-    public static String divOctal(String a, String b) {
+    public static String divOctal(String a, String b) {//(a/b)
         return Integer.toOctalString(Integer.parseInt(a,8) / Integer.parseInt(b,8));
     }
 
-    public static String divHex(String a, String b) {
+    public static String divHex(String a, String b) {//(a/b)
         return Integer.toHexString(Integer.parseInt(a,16) / Integer.parseInt(b,16)).toUpperCase();
     }
 
-    public static String divFloats(String a, String b) {
+    public static String divFloats(String a, String b) {//(a/b)
         return Float.toString(Float.parseFloat(a) / Float.parseFloat(b));
     }
 
-    public static String divDoubles(String a, String b) {
+    public static String divDoubles(String a, String b) {//(a/b)
         return Double.toString(Double.parseDouble(a) / Double.parseDouble(b));
     }
 }
