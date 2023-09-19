@@ -6,7 +6,7 @@ import static java.lang.Integer.parseInt;
 
 public class MathFunctions {
 
-    static DecimalFormat df = new DecimalFormat("#.#####");//format of floating point outputs
+    static DecimalFormat df = new DecimalFormat("#.#####");//format of floating point outputs (float and double)
 
     public static String addInts(String a, String b) {
         return Integer.toString(parseInt(a) + parseInt(b));
@@ -97,11 +97,11 @@ public class MathFunctions {
     }
 
     public static String mulFloats(String a, String b) {
-        return Float.toString(Float.parseFloat(a) * Float.parseFloat(b));
+        return df.format(Float.parseFloat(a) * Float.parseFloat(b));
     }
 
     public static String mulDoubles(String a, String b) {
-        return Double.toString(Double.parseDouble(a) * Double.parseDouble(b));
+        return df.format(Double.parseDouble(a) * Double.parseDouble(b));
     }
 
     public static String divInts(String a, String b) {//(a/b)
@@ -129,10 +129,10 @@ public class MathFunctions {
     }
 
     public static String divFloats(String a, String b) {//(a/b)
-        return Float.toString(Float.parseFloat(a) / Float.parseFloat(b));
+        return df.format(Float.parseFloat(a) / Float.parseFloat(b));
     }
 
     public static String divDoubles(String a, String b) {//(a/b)
-        return Double.toString(Double.parseDouble(a) / Double.parseDouble(b));
+        return df.format(Double.parseDouble(a) / Double.parseDouble(b));
     }
 }
