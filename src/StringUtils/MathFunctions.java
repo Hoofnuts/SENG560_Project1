@@ -1,8 +1,12 @@
 package StringUtils;
 
+import java.text.DecimalFormat;
+
 import static java.lang.Integer.parseInt;
 
 public class MathFunctions {
+
+    static DecimalFormat df = new DecimalFormat("#.#####");//format of floating point outputs
 
     public static String addInts(String a, String b) {
         return Integer.toString(parseInt(a) + parseInt(b));
@@ -29,11 +33,11 @@ public class MathFunctions {
     }
 
     public static String addFloats(String a, String b) {
-        return Float.toString(Float.parseFloat(a) + Float.parseFloat(b));
+        return df.format(Float.parseFloat(a) + Float.parseFloat(b));
     }
 
     public static String addDoubles(String a, String b) {
-        return Double.toString(Double.parseDouble(a) + Double.parseDouble(b));
+        return df.format(Double.parseDouble(a) + Double.parseDouble(b));
     }
 
     public static String subInts(String a, String b) {//(a-b)
@@ -61,11 +65,11 @@ public class MathFunctions {
     }
 
     public static String subFloats(String a, String b) {//(a-b)
-        return Float.toString(Float.parseFloat(a) - Float.parseFloat(b));
+        return df.format(Float.parseFloat(a) - Float.parseFloat(b));
     }
 
     public static String subDoubles(String a, String b) {//(a-b)
-        return Double.toString(Double.parseDouble(a) - Double.parseDouble(b));
+        return df.format(Double.parseDouble(a) - Double.parseDouble(b));
     }
 
     public static String mulInts(String a, String b) {
